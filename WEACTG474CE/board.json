@@ -2,7 +2,7 @@
     "deploy": [
         "../deploy.md"
     ],
-    "mcu": "stm32h7",
+    "mcu": "stm32g4",
     "product": "WeActStudio STM32G474CoreBoard",
     "vendor": "WeActStudio"
 }
