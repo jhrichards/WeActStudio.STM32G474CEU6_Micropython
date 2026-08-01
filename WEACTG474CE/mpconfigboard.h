@@ -65,7 +65,7 @@ extern struct _spi_bdev_t spi_bdev;
 #define MICROPY_HW_RCC_RNG_CLKSOURCE        (RCC_RNGCLKSOURCE_HSI48)
 
 // 4 wait states
-// #define MICROPY_HW_FLASH_LATENCY    FLASH_LATENCY_4
+#define MICROPY_HW_FLASH_LATENCY    FLASH_LATENCY_4
 
 // USART
 #define MICROPY_HW_LPUART1_TX       (pin_A2)  // A2, B11
